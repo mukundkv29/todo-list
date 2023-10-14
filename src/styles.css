@@ -1,0 +1,133 @@
+
+*{
+    font-family: 'general sans',sans-serif;
+    box-sizing: border-box;
+}
+body {
+    background-color: #f9faf59f;
+}
+.headdiv{
+    margin-top: 20px;
+    width: 250px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+    font-size:0.9rem;
+}
+.headdiv :nth-child(1){
+    display: flex;
+    flex: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0.9rem;
+}
+.headdiv :nth-child(2){
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.card-grid-parent{
+    width: 95%;
+    margin: auto;
+    
+    color: rgb(1, 1, 1);
+    display: grid;
+    /* border-top: 1px solid black; */
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    
+    margin-bottom: 100px;
+}
+.card-grid{
+    
+    width: 260px;
+}
+.card {
+    min-height: 130px;
+    background-color: #e6e6ee;
+    border: 0.1rem solid #141316;
+    border-radius: 6px;
+    margin-bottom: 20px;
+    padding: 9px;
+    font-size: 0.8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.card :nth-child(1){
+    max-height: 1rem;
+    display: flex;
+    flex-direction: row;
+    font-size: 0.8rem;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.card :nth-child(2){
+    display: flex;
+    flex-direction: row;
+    align-items: unsafe;
+    gap: 3px;
+}
+.card :nth-child(2) i{
+    font-size: 0.9rem;
+}
+.card :nth-child(3){
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: inherit;
+    gap: 5px;
+    width: 45%;
+    color: #240404;
+    padding: 2px;
+    border-radius: 4px;
+    font-size: 0.7rem;
+    border: 0.05rem solid #1e63da;
+    bottom: 0;
+}
+.card :nth-child(3) div{
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    background-color: #d6d9e0;
+
+}
+
+
+.color-grey{
+    color: #9da0a5;
+    /* color: red; */
+    font-weight: normal;
+}
+.color-yellow{
+    color: #f2cc55;
+}
+.color-blue{
+    color: #606cd2;
+}
+.color-orange{
+    color: #fd7a43;
+}
+
+.user-icon{
+    position: relative;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    font-weight: bold;
+    padding: 4px;
+    /* border: 1px solid #9da0a5; */
+}
+.status-dot{
+    
+   
+    border-radius: 50%;
+    width: 7px;
+    height: 7px;
+    position: absolute;
+    z-index: 100;
+    right: 0;
+    bottom: 0;
+}
