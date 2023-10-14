@@ -1,7 +1,7 @@
 {
   "name": "quicksell",
-  "homepage": "https://mukundkv29.github.io/mukundkv29",
   "version": "0.1.0",
+  "homepage": "https://mukundkv29.github.io/todo-list",
   "private": true,
   "dependencies": {
     "axios": "^1.5.1",
