@@ -18,8 +18,8 @@ export function getColor(name) {
 }
 
 function UserIcon(props) {
-  const userInitials = getInitials(props.name);
-  const userColor = getColor(props.name);
+  // const userInitials = getInitials(props.name);
+  // const userColor = getColor(props.name);
   const dotcolor = props.userstatus ? "#e9b603" : "#9da0a5";
   return (
     <span

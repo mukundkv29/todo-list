@@ -46,11 +46,11 @@ body {
 .card {
     min-height: 130px;
     background-color: #e6e6ee;
-    border: 0.1rem solid #141316;
-    border-radius: 6px;
+    /* border: 0.1rem solid #141316; */
+    /* border-radius: 6px; */
     margin-bottom: 20px;
-    padding: 9px;
-    font-size: 0.8rem;
+    padding: 25px;
+    font-size: 1rem;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
@@ -111,14 +111,6 @@ body {
     color: #fd7a43;
 }
 
-/* .user-icon{
-    position: relative;
-    border-radius: 50%;
-    font-size: 0.7rem;
-    font-weight: bold;
-    padding: 4px;
-    /* border: 1px solid #9da0a5; */
-/* } */ */
 .status-dot{
     
    

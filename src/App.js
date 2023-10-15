@@ -30,10 +30,10 @@ function App() {
     const user = users.find((user) => user.id === customid);
     return user ? user.available : null;
   }
-  function headerdivData(key) {
-    console.log(key);
-    return <Head name={groupingOption} keys={key} />;
-  }
+  // function headerdivData(key) {
+  //   console.log(key);
+  //   return <Head name={groupingOption} keys={key} />;
+  // }
 
   console.log(groupingOption);
   const groupTasks = (tasks, groupingOption) => {
