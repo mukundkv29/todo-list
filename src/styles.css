@@ -1,6 +1,6 @@
 
 *{
-    font-family: 'general sans',sans-serif;
+    font-family: 'switzer',sans-serif;
     box-sizing: border-box;
 }
 body {
@@ -40,14 +40,11 @@ body {
     margin-bottom: 100px;
 }
 .card-grid{
-    
-    width: 260px;
+    width: 280px;
 }
 .card {
     min-height: 130px;
-    background-color: #e6e6ee;
-    /* border: 0.1rem solid #141316; */
-    /* border-radius: 6px; */
+    background-color: #fbfbf8;
     margin-bottom: 20px;
     padding: 25px;
     font-size: 1rem;
@@ -84,21 +81,20 @@ body {
     padding: 2px;
     border-radius: 4px;
     font-size: 0.7rem;
-    border: 0.05rem solid #1e63da;
+    border: 0.05rem solid #010814;
     bottom: 0;
 }
 .card :nth-child(3) div{
     width: 9px;
     height: 9px;
     border-radius: 50%;
-    background-color: #d6d9e0;
+    background-color: #ffffff;
 
 }
 
 
 .color-grey{
     color: #020710;
-    /* color: red; */
     font-weight: normal;
 }
 .color-yellow{

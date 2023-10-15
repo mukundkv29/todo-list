@@ -1,6 +1,4 @@
 import { useEffect, useState } from "react";
-import UserIcon from "./Usericon";
-//functions
 
 function Card(props) {
   const obj = props.jsondata;
@@ -25,12 +23,9 @@ function Card(props) {
     <div className="card">
       <div>
         <span className="color-grey">{obj.id}</span>
-        <UserIcon name={props.name} userstatus={props.userstatus} />
+        
       </div>
       <div>
-        <span className={colorclass}>
-          <i class="material-symbols-outlined ">{displayicon}</i>
-        </span>
         <span>{obj.title}</span>
       </div>
       <div>

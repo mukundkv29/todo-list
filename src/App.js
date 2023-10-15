@@ -30,10 +30,6 @@ function App() {
     const user = users.find((user) => user.id === customid);
     return user ? user.available : null;
   }
-  // function headerdivData(key) {
-  //   console.log(key);
-  //   return <Head name={groupingOption} keys={key} />;
-  // }
 
   console.log(groupingOption);
   const groupTasks = (tasks, groupingOption) => {
@@ -93,9 +89,10 @@ function App() {
   };
   const groupedTasks = groupTasks(tasks, groupingOption);
   const sortedTasks = sortTasks(groupedTasks, orderingOption);
-
+  
   return (
     <div>
+      <h2>Todo List</h2>
       <div>
         <label htmlFor="groupingDropdown">Group By: </label>
         <select
@@ -119,7 +116,6 @@ function App() {
           <option value="Title">Title (Lexicographical)</option>
         </select>
       </div>
-      <h1>TodoList</h1>
       <div>
         <br />
         <div className="">
