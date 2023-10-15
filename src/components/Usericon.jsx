@@ -24,9 +24,12 @@ function UserIcon(props) {
   return (
     <span
       className="user-icon"
-      style={{ backgroundColor: userColor, color: "white" }}
+      style={{ 
+        // backgroundColor: userColor, 
+        color: "black" }}
     >
-      {userInitials}
+      {props.name}
+      {/* {userInitials} */}
       <div className="status-dot" style={{ backgroundColor: dotcolor }}></div>
     </span>
   );

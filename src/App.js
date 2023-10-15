@@ -97,7 +97,7 @@ function App() {
   return (
     <div>
       <div>
-        <label htmlFor="groupingDropdown">Grouping: </label>
+        <label htmlFor="groupingDropdown">Group By: </label>
         <select
           id="groupingDropdown"
           value={groupingOption}
@@ -109,7 +109,7 @@ function App() {
         </select>
       </div>
       <div>
-        <label htmlFor="orderingDropdown">Ordering: </label>
+        <label htmlFor="orderingDropdown">Order By: </label>
         <select
           id="orderingDropdown"
           value={orderingOption}
@@ -119,8 +119,8 @@ function App() {
           <option value="Title">Title (Lexicographical)</option>
         </select>
       </div>
+      <h1>TodoList</h1>
       <div>
-        {/* Render the grouped and sorted tasks in cards */}
         <br />
         <div className="">
           <div className="card-grid-parent">

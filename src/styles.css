@@ -35,7 +35,6 @@ body {
     
     color: rgb(1, 1, 1);
     display: grid;
-    /* border-top: 1px solid black; */
     grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
     
     margin-bottom: 100px;
@@ -112,14 +111,14 @@ body {
     color: #fd7a43;
 }
 
-.user-icon{
+/* .user-icon{
     position: relative;
     border-radius: 50%;
     font-size: 0.7rem;
     font-weight: bold;
     padding: 4px;
     /* border: 1px solid #9da0a5; */
-}
+/* } */ */
 .status-dot{
     
    
